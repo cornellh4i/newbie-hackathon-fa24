@@ -78,7 +78,7 @@ const About = () => {
           <p className="text-black leading-relaxed">
           I am the 14th President of Cornell University and a computer scientist with a passion for advancing education, 
           research, and technology. My academic career has focused on artificial intelligence, natural language processing, 
-          and assistive technology, with a commitment to applying these fields to real-world challenges. At Cornell, I&#39m dedicated 
+          and assistive technology, with a commitment to applying these fields to real-world challenges. At Cornell, I&#39;m dedicated 
           to fostering academic excellence, interdisciplinary collaboration, and sustainability, while building a more inclusive and 
           engaged campus community. Outside of my role at the university, I enjoy mentoring future leaders and exploring new ways to make 
           meaningful contributions to both academia and society.
