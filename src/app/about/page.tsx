@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen">
       {/* Navbar */}
       <nav className="bg-white shadow-md">
   <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center p-6 bg-white">
