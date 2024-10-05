@@ -11,7 +11,7 @@ const Contacts = () => {
           <li className="relative">
             <a
               href="/about"
-              className="font-bold text-red-600 before:absolute before:left-0 before:top-[-10px] before:h-1 before:w-full before:bg-red-600 before:content-[''] hover:font-bold"
+              className="font-bold text-red-600 hover:font-bold"
             >
               ABOUT
             </a>
@@ -35,7 +35,7 @@ const Contacts = () => {
           <li>
             <a
               href="/contact"
-              className="font-normal text-red-600 hover:font-bold"
+              className="font-normal text-red-600 before:absolute before:left-0 before:top-[-10px] before:h-1 before:w-full before:bg-red-600 before:content-[''] hover:font-bold"
             >
               CONTACT
             </a>
