@@ -28,7 +28,7 @@ const FunFacts = () => {
             alt="Martha Pollack"
             width={400}
             height={400}
-            className="rounded-lg shadow-[0_10px_30px_rgba(0,0,0,0.2)] w-full h-auto"
+            className="shadow-[0_10px_30px_rgba(0,0,0,0.2)] w-full h-auto"
           />
         </div>
 
