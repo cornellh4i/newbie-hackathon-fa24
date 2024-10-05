@@ -2,8 +2,12 @@
 const nextConfig = {
   output: "export",
   images: {
-    unoptimized: true, // Disable image optimization for static export
+    unoptimized: true,
   },
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
 
 export default nextConfig;
