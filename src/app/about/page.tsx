@@ -45,7 +45,7 @@ const About = () => {
             </li>
             <li className="w-full md:w-auto">
               <a
-                href="/contact"
+                href="/contacts"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 CONTACT
