@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col items-center bg-white p-6 md:flex-row md:items-center md:justify-between">
           {/* Title */}
           <h1 className="mb-4 text-3xl font-bold text-red-600 md:mb-0">
-            Martha Pollack's Portfolio
+            Martha Pollack&#39;s Portfolio
           </h1>
 
           {/* Line below the title on mobile (hidden on desktop) */}
