@@ -1,30 +1,36 @@
 import Image from "next/image";
+import image from "../../../public/martha_fun_facts.png";
+import Link from "next/link";
 
 const FunFacts = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-pink-100 p-4 md:p-8">
+    <div
+      className="min-h-screen bg-gradient-to-b from-white to-pink-100 p-4 md:p-8"
+    >
       {/* Header */}
       <header className="mb-8 flex flex-col items-center justify-between text-center md:flex-row md:text-left">
         <h1 className="mb-4 border-b-2 border-rose-300 pb-1 text-3xl text-rose-700 md:mb-0 md:text-4xl">
           Martha Pollack&#39;s Portfolio
         </h1>
         <nav className="flex space-x-6 text-lg font-semibold text-rose-500 md:space-x-12 md:text-xl">
-          <a href="/about" className="transition-all hover:text-rose-700">
+          <Link href="/about" className="transition-all hover:text-rose-700">
             ABOUT
-          </a>
-          <a
+          </Link>
+          <Link
             href="/achievements"
             className="transition-all hover:text-rose-700"
           >
             ACHIEVEMENTS
-          </a>
-          <a href="/fun-facts" className="relative pb-1 text-rose-700">
+          </Link>
+          <Link href="/fun-facts" className="relative pb-1 text-rose-700">
             FUN FACTS
-            <span className="bg-customPink absolute left-0 top-[-8px] h-[3px] w-full"></span>
-          </a>
-          <a href="#contact" className="transition-all hover:text-rose-700">
+            <span
+              className="absolute left-0 top-[-8px] h-[3px] w-full bg-customPink"
+            ></span>
+          </Link>
+          <Link href="/contacts" className="transition-all hover:text-rose-700">
             CONTACT
-          </a>
+          </Link>
         </nav>
       </header>
 
@@ -33,7 +39,7 @@ const FunFacts = () => {
         {/* Image Section */}
         <div className="w-full lg:w-1/3">
           <Image
-            src="/martha_fun_facts.png"
+            src={image}
             alt="Martha Pollack"
             width={400}
             height={400}

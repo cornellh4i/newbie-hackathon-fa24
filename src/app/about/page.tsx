@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import image from "../../../public/image.png";
 
 const About = () => {
   return (
@@ -18,38 +20,38 @@ const About = () => {
           <ul className="flex w-full flex-col items-center space-y-1 md:w-auto md:flex-row md:space-x-6 md:space-y-0">
             {/* ABOUT Link with line above on desktop */}
             <li className="relative w-full md:w-auto">
-              <a
+              <Link
                 href="/about"
                 className="block w-full border-red-600 py-2 text-center font-bold text-red-600 md:inline-block md:w-auto md:border-t-4 md:text-left"
               >
                 ABOUT
-              </a>
+              </Link>
             </li>
 
             {/* Other Links */}
             <li className="w-full md:w-auto">
-              <a
+              <Link
                 href="/achievements"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 ACHIEVEMENTS
-              </a>
+              </Link>
             </li>
             <li className="w-full md:w-auto">
-              <a
+              <Link
                 href="/fun-facts"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 FUN FACTS
-              </a>
+              </Link>
             </li>
             <li className="w-full md:w-auto">
-              <a
+              <Link
                 href="/contacts"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 CONTACT
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -60,7 +62,7 @@ const About = () => {
         {/* Avatar Section */}
         <div className="mb-6 flex-shrink-0 md:mb-0 md:mr-12">
           <Image
-            src="/image.png"
+            src={image}
             alt="Martha Pollack"
             className="rectangle"
             width={400}

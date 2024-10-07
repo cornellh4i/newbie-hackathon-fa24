@@ -1,3 +1,9 @@
+import Link from "next/link";
+import Image from "next/image";
+import image1 from "../../../public/images/martha1.png";
+import image2 from "../../../public/images/martha2.jpg";
+import image3 from "../../../public/images/martha3.jpg";
+
 export default function AchievementsPage() {
   return (
     <main
@@ -20,37 +26,37 @@ export default function AchievementsPage() {
           <ul className="flex w-full flex-col items-center space-y-1 md:w-auto md:flex-row md:space-x-6 md:space-y-0">
             {/* ABOUT Link with line above on desktop */}
             <li className="relative w-full md:w-auto">
-              <a
-                href="#about"
+              <Link
+                href="/about"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 ABOUT
-              </a>
+              </Link>
             </li>
             {/* Other Links */}
             <li className="w-full md:w-auto">
-              <a
-                href="#achievements"
+              <Link
+                href="/achievements"
                 className="block w-full border-red-600 py-2 text-center font-bold text-red-600 md:inline-block md:w-auto md:border-t-4 md:text-left"
               >
                 ACHIEVEMENTS
-              </a>
+              </Link>
             </li>
             <li className="w-full md:w-auto">
-              <a
-                href="#fun-facts"
+              <Link
+                href="/fun-facts"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 FUN FACTS
-              </a>
+              </Link>
             </li>
             <li className="w-full md:w-auto">
-              <a
-                href="#contact"
+              <Link
+                href="/contacts"
                 className="block w-full py-2 text-center text-red-300 hover:text-red-600 md:w-auto"
               >
                 CONTACT
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -59,8 +65,8 @@ export default function AchievementsPage() {
       <div className="max-w-10xl flex min-h-screen w-full flex-col items-center justify-between p-24">
         <div className="flex flex-col items-center space-y-6">
           <div className="flex items-start space-x-4">
-            <img
-              src="/images/martha1.png"
+            <Image
+              src={image1}
               alt="Achievement 1"
               className="h-[272px] w-[272px] object-cover"
             />
@@ -100,8 +106,8 @@ export default function AchievementsPage() {
           </div>
 
           <div className="flex items-start space-x-4">
-            <img
-              src="/images/martha2.jpg"
+            <Image
+              src={image2}
               alt="Achievement 2"
               className="h-[272px] w-[272px] object-cover"
             />
@@ -138,8 +144,8 @@ export default function AchievementsPage() {
           </div>
 
           <div className="flex items-start space-x-4">
-            <img
-              src="/images/martha3.jpg"
+            <Image
+              src={image3}
               alt="Achievement 3"
               className="h-[272px] w-[272px] object-cover"
             />
