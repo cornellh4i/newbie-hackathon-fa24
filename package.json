@@ -27,7 +27,7 @@
     "prettier-plugin-merge": "^0.10.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^4.3.2",
-    "typescript": "^6"
+    "typescript": "^7"
   },
   "packageManager": "yarn@4.2.2"
 }
